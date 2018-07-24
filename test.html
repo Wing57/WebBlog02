@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>测试</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            height: 300px;
+            background: wheat;
+        }
+
+        .box_inner {
+            background: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        one12332为请问人情味
+    </h1>
+    <div style="height: 10000px;background: rebeccapurple;">
+
+    </div>
+    <div class="box">
+        123123饿犬瘟热犬瘟热123
+    </div>
+    <script>
+        $(function () {
+            var a, b, c;
+            a = $(window).height();
+            $(window).scroll(function () {
+                var b = $(this).scrollTop();
+                $(".box").each(function () {
+                    c = $(this).offset().top;
+                    if (a + b > c) {
+                        $(this).addClass("box_inner");
+                    }
+                    else {
+                        $(this).removeClass("box_inner");
+                    }
+                });
+            });
+        })
+    </script>
+</body>
+
+</html>

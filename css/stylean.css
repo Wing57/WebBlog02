@@ -1,0 +1,61 @@
+.footer_inner_0102an {
+  -webkit-animation: footeran 1s ease 0s infinite both;
+          animation: footeran 1s ease 0s infinite both;
+}
+
+@-webkit-keyframes footeran {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #aaaaf1;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes footeran {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #aaaaf1;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.layer3_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-image: url(../img/login/0034.png);
+  background-position: 0% 0%;
+  -webkit-animation: layer3an 30s linear -30s infinite both;
+          animation: layer3an 30s linear -30s infinite both;
+}
+
+@-webkit-keyframes layer3an {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -1000px 0%;
+  }
+}
+
+@keyframes layer3an {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -1000px 0%;
+  }
+}
+/*# sourceMappingURL=stylean.css.map */

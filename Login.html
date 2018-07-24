@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylean.css">
+
+</head>
+
+<body>
+    <div class="login_content">
+        <div id="scene">
+            <li class="layer layer1" data-depth="0.10">
+                <img src="img/login/wqbg.jpg">
+            </li>
+            <li class="layer layer2" data-depth="0.20">
+                <img src="img/login/wqsun.png">
+            </li>
+            <li class="layer layer3" data-depth="0.30">
+                <div class="layer3_inner">
+
+                </div>
+            </li>
+            <li class="layer layer4" data-depth="0.40">
+                <img src="img/login/wqsm.png">
+            </li>
+        </div>
+        <div class="login_float">
+
+        </div>
+        <div class="box">
+            <div class="box_inner">
+                <div class="box_inner_title">
+                    Login
+                </div>
+                <form action="" method="post">
+                    <input type="text" name="username" class="username" placeholder="Username">
+                    <input type="password" name="password" class="password" placeholder="Password">
+                    <button type="submit">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">登录我</font>
+                        </font>
+                    </button>
+                    <div class="error">
+                        <span>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">+</font>
+                            </font>
+                        </span>
+                    </div>
+                </form>
+                <div class="box_inner_icon">
+                    <i class="fa fa-qq"></i>
+                    <i class="fa fa-weixin"></i>
+                    <i class="fa fa-google-plus-official"></i>
+                    <i class="fa fa-facebook-square"></i>
+                    <i class="fa fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $('#scene').parallax();
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+// footer
+.footer_inner_0102an {
+    animation: footeran 1s ease 0s infinite both;
+}
+
+@keyframes footeran {
+    0% {
+        color: white;
+    }
+    50% {
+        color: #aaaaf1;
+    }
+    100% {
+        color: white;
+    }
+}
+
+//login
+.layer3_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+    background-image: url(../img/login/0034.png);
+    background-position: 0% 0%;
+    animation: layer3an 30s linear -30s infinite both;
+}
+
+@keyframes layer3an {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -1000px 0%;
+    }
+}
