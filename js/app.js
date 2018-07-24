@@ -66,7 +66,7 @@ function footer_anrun() {
         footer_antime = setInterval(footer_an, 1000);
     });
 }
-
+//漫画页面
 function cartoon_carousel() {
     var count = 1;
     function cartoon_an() {
@@ -77,5 +77,5 @@ function cartoon_carousel() {
             count = 0;
         }
     }
-    setInterval(cartoon_an, 5000);
+    setInterval(cartoon_an, 3000);
 }
