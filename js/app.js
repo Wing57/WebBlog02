@@ -77,5 +77,5 @@ function cartoon_carousel() {
             count = 0;
         }
     }
-    setInterval(cartoon_an, 3000);
+    setInterval(cartoon_an, 5000);
 }
