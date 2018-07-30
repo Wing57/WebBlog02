@@ -15,44 +15,43 @@
         }
 
         .box {
-            height: 300px;
-            background: wheat;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
         }
 
-        .box_inner {
+        .box1,
+        .box3 {
+            font-size: 30px;
+            padding: 10px 0;
+            background: rosybrown;
+
+        }
+
+        .box2 {
             background: burlywood;
+            flex: auto;
+        }
+
+        .box2 img {
+            height: 300px;
+
         }
     </style>
 </head>
 
 <body>
-    <h1>
-        one12332为请问人情味
-    </h1>
-    <div style="height: 10000px;background: rebeccapurple;">
-
-    </div>
     <div class="box">
-        123123饿犬瘟热犬瘟热123
+        <div class="box1">
+            123
+        </div>
+        <div class="box2">
+            <img src="img/cartoon/7.png" alt="">
+        </div>
+        <div class="box3">
+            123
+        </div>
     </div>
-    <script>
-        $(function () {
-            var a, b, c;
-            a = $(window).height();
-            $(window).scroll(function () {
-                var b = $(this).scrollTop();
-                $(".box").each(function () {
-                    c = $(this).offset().top;
-                    if (a + b > c) {
-                        $(this).addClass("box_inner");
-                    }
-                    else {
-                        $(this).removeClass("box_inner");
-                    }
-                });
-            });
-        })
-    </script>
 </body>
 
 </html>

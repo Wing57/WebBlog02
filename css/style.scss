@@ -687,6 +687,10 @@
 }
 
 // about 关于页面
+.BaiduMap {
+    height: 100%;
+}
+
 .about_01 {
     position: relative;
 }
@@ -872,6 +876,12 @@
     display: inline-block;
 }
 
+.car02_li {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
 .car_01_carousel {
     position: relative;
     height: 50vh;
@@ -957,6 +967,30 @@
     100% {
         width: 100%;
     }
+}
+
+.car_02_title,
+.car_01_more {
+    background: #f14646ed;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    color: #fff;
+}
+
+.car_02_img {
+    background: #e0e0ea;
+    flex: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.car_02_img img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 //login
