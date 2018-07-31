@@ -44,11 +44,19 @@
                 <form action="" method="post">
                     <input type="text" name="username" class="username" placeholder="Username">
                     <input type="password" name="password" class="password" placeholder="Password">
-                    <button type="submit">
+
+                    <div class="button"  onclick="jump()">
+
                         <font style="vertical-align: inherit;">
                             <font style="vertical-align: inherit;">登录我</font>
                         </font>
-                    </button>
+
+                    </div>
+                    <script>
+                        function jump() {
+                            window.location.href = "index.html";
+                        }
+                    </script>
                     <div class="error">
                         <span>
                             <font style="vertical-align: inherit;">
@@ -64,7 +72,7 @@
                     <i class="fa fa-facebook-square"></i>
                     <i class="fa fa-twitter"></i>
                 </div>
-            </div>
+            </button>
         </div>
     </div>
     <script>
