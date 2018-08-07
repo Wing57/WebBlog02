@@ -1290,4 +1290,48 @@
 .box_inner_icon i:hover {
   color: #000;
 }
+
+.details_box {
+  position: initial;
+  display: block;
+  margin-top: 100px;
+}
+
+.details_fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+}
+
+.details_box2 {
+  position: initial;
+  display: block;
+  margin-top: 10px;
+}
+
+.details_fixed2 {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.list_con1_content {
+  text-align: center;
+}
+
+.list_search {
+  width: 30%;
+}
+
+.list_search_input {
+  font-size: 18px;
+  padding: 16px 18px;
+  margin-bottom: 0;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  outline: 0;
+  border-radius: 3px 3px 0 0;
+}
 /*# sourceMappingURL=style.css.map */

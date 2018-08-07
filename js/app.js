@@ -27,25 +27,26 @@ $(function () {
     })
     footer_anrun();
     //about
-    $('.about_scrolltext01').liMarquee(
-        {
-            hoverstop: false,
-            scrollamount: 20
-        }
-    );
-    $('.about_scrolltext02').liMarquee({
-        direction: 'right',
-        hoverstop: false,
-        scrollamount: 20
-    });
-    $('.about_scrolltext03').liMarquee(
-        {
-            hoverstop: false,
-            scrollamount: 20
-        }
-    );
+    // $('.about_scrolltext01').liMarquee(
+    //     {
+    //         hoverstop: false,
+    //         scrollamount: 20
+    //     }
+    // );
+    // $('.about_scrolltext02').liMarquee({
+    //     direction: 'right',
+    //     hoverstop: false,
+    //     scrollamount: 20
+    // });
+    // $('.about_scrolltext03').liMarquee(
+    //     {
+    //         hoverstop: false,
+    //         scrollamount: 20
+    //     }
+    // );
     cartoon_carousel();
-
+    fixed02();
+    fixed01();
 })
 function footer_anrun() {
     var count = 0;
@@ -66,7 +67,7 @@ function footer_anrun() {
         footer_antime = setInterval(footer_an, 1000);
     });
 }
-//漫画页面
+//漫画页面轮播
 function cartoon_carousel() {
     var count = 1;
     function cartoon_an() {
@@ -78,4 +79,30 @@ function cartoon_carousel() {
         }
     }
     setInterval(cartoon_an, 5000);
+}
+//详情页
+function fixed02() {
+    var domtop = $(".details_box").offset().top;
+    $(window).scroll(function () {
+        var wintop = $(window).scrollTop();
+        if (wintop >= domtop) {
+            $(".details_box").addClass("details_fixed col-2");
+        }
+        else {
+            $(".details_box").removeClass("details_fixed col-2");
+        }
+    })
+}
+
+function fixed01() {
+    var domtop = $(".details_box2").offset().top;
+    $(window).scroll(function () {
+        var wintop = $(window).scrollTop();
+        if (wintop >= domtop) {
+            $(".details_box2").addClass("details_fixed2 col-3");
+        }
+        else {
+            $(".details_box2").removeClass("details_fixed2 col-3");
+        }
+    })
 }
