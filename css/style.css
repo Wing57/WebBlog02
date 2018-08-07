@@ -1316,6 +1316,12 @@
   top: 0;
 }
 
+.list_con1 {
+  background-image: url("../img/list/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .list_con1_content {
   text-align: center;
 }
