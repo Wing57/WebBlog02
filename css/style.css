@@ -1326,13 +1326,29 @@
   text-align: center;
 }
 
+.list_con1_title1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.list_con1_title1 span:first-child {
+  letter-spacing: 1rem;
+}
+
+.list_con1_title2 {
+  color: white;
+  font-size: 0.9rem;
+}
+
 .list_search {
   width: 30%;
+  margin: 0 auto;
 }
 
 .list_search_input {
   font-size: 18px;
-  padding: 16px 18px;
+  padding: 5;
   margin-bottom: 0;
   width: 100%;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
