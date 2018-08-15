@@ -99,10 +99,10 @@ function fixed01() {
     $(window).scroll(function () {
         var wintop = $(window).scrollTop();
         if (wintop >= domtop) {
-            $(".details_box2").addClass("details_fixed2 col-3");
+            $(".details_box2").addClass("details_fixed2 col-2");
         }
         else {
-            $(".details_box2").removeClass("details_fixed2 col-3");
+            $(".details_box2").removeClass("details_fixed2 col-2");
         }
     })
 }

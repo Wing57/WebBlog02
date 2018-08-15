@@ -1,0 +1,31 @@
+@media (max-width:575px) {
+    .Bg_Change {
+        background-size: 500% auto;
+        background-position: 40% 0;
+    }
+}
+@media (min-width:576px) {
+    .Bg_Change {
+        background-size: 400% auto;
+        background-position: 30% 0;
+    }
+}
+@media (min-width:768px) {
+    .Bg_Change {
+        background-size: 300% auto;
+        background-position: 20% 0;
+    }
+}
+@media (min-width:992px) {
+    .Bg_Change {
+        background-size: 200% auto;
+        background-position: 10% 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .Bg_Change {
+        background-size: 100% auto;
+        background-position: 0 0;
+    }
+}
